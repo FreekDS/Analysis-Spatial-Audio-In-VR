@@ -14,6 +14,7 @@ experiment.
     - `sfx-info/`: contains the data files created by the experiment that logged when sounds started and stopped playing
       and at which accuracy the players looked at the sound sources at which times.
     - `participants.csv`: contains the participant information gathered from the survey performed after the experiment.
+- `SpatialAudio-Experiment/`: linked submodule that contains the actual experiment Unity project.
 - `files_checker.py`: a simple Python script that verifies whether only one sound at a time was playing. This script is
   used to manually remove mistakes from the log files.
 - ``README.md``: this file.
